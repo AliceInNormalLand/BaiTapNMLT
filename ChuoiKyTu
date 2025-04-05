@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+{
+
+	char a[100] = "1234";
+	char b[100] = "-1545434543";
+	char c[100] = "12.23456";
+
+	int songuyen = atoi(a);
+	long kieulong = atol(b);
+	float sothuc = atof(c);
+
+	printf("%d\n" "%d\n" "%.2f\n", songuyen, kieulong, sothuc);
+}
