@@ -14,4 +14,17 @@ int main()
 	float sothuc = atof(c);
 
 	printf("%d\n" "%d\n" "%.2f\n", songuyen, kieulong, sothuc);
+
+	int d = 1234;
+	long e = -1545434543;
+	double f = 12.23456;
+
+	char buffer[50];
+
+	itoa(d, buffer, 10);
+	printf("%s\n", buffer);
+	ltoa(e, buffer, 10);
+	printf("%s\n", buffer);
+	ultoa(f, buffer, 10);
+	printf("%s\n", buffer);
 }
